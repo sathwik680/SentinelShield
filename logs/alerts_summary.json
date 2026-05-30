@@ -1,0 +1,17 @@
+{
+    "total_requests": 5,
+    "total_blocked": 4,
+    "total_allowed": 1,
+    "attack_counts": {
+        "SQL Injection": 1,
+        "XSS": 1,
+        "LFI": 1,
+        "Directory Traversal": 1,
+        "Command Injection": 1
+    },
+    "flagged_ips": {
+        "10.0.0.99": 3,
+        "172.16.0.5": 1
+    },
+    "generated_at": "2026-05-29 14:09:15"
+}

@@ -1,0 +1,11 @@
+
+[2026-05-29 14:25:59] IP=127.0.0.1 | METHOD=GET | PATH=/search?q=select+your+plan | BODY=None | ATTACKS=SQL Injection | ACTION=BLOCKED | REASON=N/A
+[2026-05-29 14:25:59] IP=127.0.0.1 | METHOD=GET | PATH=/blog?title=drop-down-menu-tutorial | BODY=None | ATTACKS=SQL Injection | ACTION=BLOCKED | REASON=N/A
+[2026-05-29 14:25:59] IP=127.0.0.1 | METHOD=GET | PATH=/profile?user=john_doe&bio=I+love+coding | BODY=None | ATTACKS=None | ACTION=ALLOWED | REASON=N/A
+[2026-05-29 14:25:59] IP=127.0.0.1 | METHOD=GET | PATH=/docs?page=javascript-tutorial | BODY=None | ATTACKS=None | ACTION=ALLOWED | REASON=N/A
+[2026-05-29 14:25:59] IP=127.0.0.1 | METHOD=GET | PATH=/download?file=report2024.pdf | BODY=None | ATTACKS=None | ACTION=ALLOWED | REASON=N/A
+[2026-05-29 14:25:59] IP=127.0.0.1 | METHOD=GET | PATH=/search?q=1/**/OR/**/1=1 | BODY=None | ATTACKS=None | ACTION=ALLOWED | REASON=N/A
+[2026-05-29 14:25:59] IP=127.0.0.1 | METHOD=GET | PATH=/files?path=%252e%252e%252fetc%252fpasswd | BODY=None | ATTACKS=None | ACTION=ALLOWED | REASON=N/A
+[2026-05-29 14:25:59] IP=127.0.0.1 | METHOD=GET | PATH=/page?x=<script>alert(1)</script> | BODY=None | ATTACKS=XSS | ACTION=BLOCKED | REASON=N/A
+[2026-05-29 14:25:59] IP=127.0.0.1 | METHOD=GET | PATH=/search?q=UNION+SELECT+username+FROM+users | BODY=None | ATTACKS=SQL Injection | ACTION=BLOCKED | REASON=N/A
+[2026-05-29 14:25:59] IP=127.0.0.1 | METHOD=POST | PATH=/login | BODY=cmd=id%0awhoami | ATTACKS=Command Injection | ACTION=BLOCKED | REASON=N/A
